@@ -14,6 +14,7 @@
 		040C580A1BBA740F006E2396 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040C58091BBA740F006E2396 /* Images.xcassets */; };
 		040C580D1BBA740F006E2396 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040C580B1BBA740F006E2396 /* LaunchScreen.xib */; };
 		040C58191BBA740F006E2396 /* FontsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C58181BBA740F006E2396 /* FontsDemoTests.m */; };
+		040C58241BBA8D5E006E2396 /* Qarmic_sans_Abridged.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 040C58221BBA86A4006E2396 /* Qarmic_sans_Abridged.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		040C58121BBA740F006E2396 /* FontsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		040C58171BBA740F006E2396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		040C58181BBA740F006E2396 /* FontsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontsDemoTests.m; sourceTree = "<group>"; };
+		040C58221BBA86A4006E2396 /* Qarmic_sans_Abridged.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Qarmic_sans_Abridged.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		040C57FC1BBA740F006E2396 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				040C58221BBA86A4006E2396 /* Qarmic_sans_Abridged.ttf */,
 				040C57FD1BBA740F006E2396 /* Info.plist */,
 				040C57FE1BBA740F006E2396 /* main.m */,
 			);
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040C58241BBA8D5E006E2396 /* Qarmic_sans_Abridged.ttf in Resources */,
 				040C58081BBA740F006E2396 /* Main.storyboard in Resources */,
 				040C580D1BBA740F006E2396 /* LaunchScreen.xib in Resources */,
 				040C580A1BBA740F006E2396 /* Images.xcassets in Resources */,
@@ -350,6 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FontsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FontsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
